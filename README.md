@@ -1,4 +1,2 @@
 # DesAgilProjectGates
-Phelipe Muller  & 
-Matteo Iannoni  &  
-Alessandra Blucher
+Phelipe Muller  & Matteo Iannoni  &  Alessandra Blucher

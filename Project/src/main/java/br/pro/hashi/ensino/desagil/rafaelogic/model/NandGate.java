@@ -1,9 +1,11 @@
 package br.pro.hashi.ensino.desagil.rafaelogic.model;
 
 public class NandGate extends Gate {
+	
 	private Emitter[] emitters;
 
 	public NandGate() {
+		super("NandGate");
 		emitters = new Emitter[2];
 	}
 

@@ -6,6 +6,7 @@ public class OrGate extends Gate{
 	
 
 	public OrGate() {
+		super("OrGate");
 		notes = new NotGate[2];
 		notes[0] = new NotGate();
 		notes[1] = new NotGate();
@@ -27,5 +28,6 @@ public class OrGate extends Gate{
 	public boolean read() {		
 		return nand.read();
 	}
+
 
 }

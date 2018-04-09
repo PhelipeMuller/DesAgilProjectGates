@@ -8,6 +8,7 @@ public class XorGate extends Gate{
 	
 
 	public XorGate() {
+		super("XorGate");
 		ands = new AndGate[2];
 		ands[0] = new AndGate();
 		ands[1] = new AndGate();

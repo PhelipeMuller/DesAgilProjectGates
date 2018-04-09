@@ -5,6 +5,7 @@ public class AndGate extends Gate{
 	private NotGate note;
 
 	public AndGate() {
+		super("AndGate");
 		nand = new NandGate();
 		note = new NotGate();
 		
